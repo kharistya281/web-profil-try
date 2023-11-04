@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #0978f6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-20deg, #a9ecff 0%, #0978f6 100%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+} */
+header{
+    background-color: #0d0c8f;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    color: #d4ecf4;
+}
+
+.profil{
+    height: 300px;
+    background-image: linear-gradient(-22deg, #00b0ff 0%, #00b0ff 45%, #0978f6 55%, #0978f6 100%);
+    gap: 1rem 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 15px 20px 15px;
+}
+
+.profil img{
+    background-image: url(asset/profil.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    border: 1px solid #eaeaea;
+}
+
+h2, h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 5px 0px 15px 10px;
+}
+
+.content table{
+    padding: 25px 55px 25px 55px;
+}
+
+.content table tr th{
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: left;
+    /* padding: 5px; */
+    width: 50%; 
+}
+
+.content table tr td{
+    padding: 5px;
+    width: 50%;
+}
+
+.tab-personal table {
+    border-collapse: collapse; 
+}
+
+.tab-personal table tr th,
+.tab-personal table tr td {
+    font-family: 'Poppins', sans-serif;
+    /* padding: 8px; */
+    border-bottom: 1px solid black;
+    width: 0%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h5{
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+}
+
+footer ul li img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px;
+    padding: 20px;
+    text-align: center; 
+}
